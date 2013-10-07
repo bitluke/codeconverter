@@ -2,10 +2,14 @@ Codeconverter
 =============
 This tool is capable of transforming an android application into a code offloadable application .
 
+
 Requirements
 -------------
+
 Maven : version >= 2
+
 JDK : version >= 1.6
+
 
 Build
 ------------
@@ -26,5 +30,5 @@ A file "converter-1.0-jar-with-dependencies" would be created in target folder o
 Navigate into the directory via the command prompt and execute the following
 
 ```xml
-java -jar converter-1.0-jar-with-dependencies
+java -jar converter-1.0-jar-with-dependencies.jar
 ````
