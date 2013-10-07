@@ -285,10 +285,10 @@ public class EditMojo {
                     int indexofimport = sb.lastIndexOf("import");
                     int indexofscolon = sb.indexOf(";");
                     if (indexofscolon < classNameIndex) {
-                        sb.insert(indexofscolon + 1, "\n\nimport java.lang.reflect.Method; \n" + "import MC.NetClasses.CloudRemotable;\n"
+                        sb.insert(indexofscolon + 1, "\n\nimport java.lang.reflect.Method; \n" + "import edu.ut.mobile.network.CloudRemotable;\n"
                                 + "import java.util.Vector;\n");
                     } else {
-                        sb.insert(0, "\nimport java.lang.reflect.Method; \n" + "import MC.NetClasses.CloudRemotable;\n"
+                        sb.insert(0, "\nimport java.lang.reflect.Method; \n" + "import edu.ut.mobile.network.CloudRemotable;\n"
                                 + "import java.util.Vector;\n");
                     }
 
