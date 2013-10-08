@@ -1,12 +1,13 @@
 Codeconverter
 =============
-This tool is capable of transforming an android application into a code offloadable application .
+This tool is capable of transforming an android application into a code offloadable application as long as it has
+been annotated with necessary ```xml @Cloud ````  annotation.
 
 
 Requirements
 -------------
 
-Maven : version >= 2
+Maven : version >= 3.0.4
 
 JDK : version >= 1.6
 
